@@ -1,0 +1,122 @@
+.sarasas1 {
+  list-style-type: none;
+}
+
+.sarasas1 li {
+  float: left;
+  margin-right: 10px;
+}
+
+.sarasas1 li:hover {
+  color: tomato;
+}
+
+.textPries2::before {
+  content: "Tekstas prieš ";
+  color: red;
+}
+
+.textPo2::after {
+  content: " Tekstas po. ";
+  color: red;
+}
+
+.pavPries2::before {
+  content: url("../image/icon-calculator.svg");
+}
+
+.pavPo2::after {
+  content: url("../image/icon-calculator.svg");
+}
+
+.elPries2::before {
+  content: " ";
+  display: inline-block;
+  width: 80px;
+  height: 10px;
+  background: red;
+}
+
+.elPo2::after {
+  content: " ";
+  display: inline-block;
+  width: 80px;
+  height: 10px;
+  background: red;
+}
+
+.selection::selection {
+  background: pink;
+  color: blue;
+}
+
+.pirmaRaide::first-letter {
+  font-size: 40px;
+  color: green;
+}
+
+.pirmaEilute::first-line {
+  background: black;
+  color: white;
+}
+
+.selectorius li:nth-child(2n + 1) {
+  color: red;
+  background: yellow;
+}
+
+.lyginiai li:nth-child(2n) {
+  color: red;
+  background: yellow;
+}
+
+.pasirinktas li:nth-child(4) {
+  color: red;
+  background: yellow;
+}
+
+.pirmasElementas li:first-child {
+  color: red;
+  background: yellow;
+}
+
+.paskutinisElementas li:last-child {
+  color: red;
+  background: yellow;
+}
+
+.div1 {
+  width: 200px;
+  height: 250px;
+  background: blue;
+  transition-duration: 1s;
+}
+
+.div2 {
+  width: 200px;
+  height: 250px;
+  background: blue;
+  transition: width 1s ease-in ;
+}
+
+.div3 {
+  width: 200px;
+  height: 250px;
+  background: blue;
+  /* transition: 1s ease-in ; */
+}
+
+.div1:hover {
+  background: yellow;
+}
+
+.div2:hover {
+  background: yellow;
+  width: 600px;
+}
+
+.div3:hover {
+  position: absolute;
+  left: 50px;
+  background:#00CCCC;
+}
